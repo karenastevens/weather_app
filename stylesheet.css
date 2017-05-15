@@ -1,11 +1,13 @@
+/*  body  */
+
 body {
   background-color: lightblue;
 }
 
 h1 {
-  font-size: 52px;
+  font-size: 48px;
   font-weight: bold;
-  color: darkblue;
+  color: black;
   text-align: center;
 }
 
@@ -13,4 +15,21 @@ h1 {
   text-align: center;
   color: black;
   font-size: 68px;
+  margin-bottom: 2px;
 }
+
+#weather-icon {
+  text-align: center;
+  background-size: 30px;
+}
+
+#b1 {
+  text-align: center;
+  margin: auto;
+  display: block;
+  font-size: 15px;
+  background-color: pink;
+  margin-bottom: 20px;
+}
+
+

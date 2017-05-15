@@ -8,8 +8,10 @@
     <script type="text/javascript">
     $(document).ready(function(){
       var temp = 68;
+      var symbol;
       function setTemp(){
-        return temp;
+        symbol = '&deg;'+'C';
+        return temp + symbol;
       }
       $('#temp').html(setTemp());
     });
@@ -19,10 +21,17 @@
   <body>
     <div class container-fluid>
       <div class row-text-center>
-        <h1>Weather Getter</h1>
+        <h1>Weather <img id="title-logo" alt="lightning bolt" src="images/lightning.png">Getter</h1>
       </div>
       <div class row-text-center>
         <h3 id="temp">45</h3>
+        <button id="b1">GET &deg;F</button>
+      </div>
+      <div>
+        
+      </div>
+      <div id="weather-icon" class row-text-center>
+        <img alt="weather icon" src="images/sun.png">
       </div>
     </div>
   </body>

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+/*  body  */
+
+body {
+  background-color: lightblue;
+  font-family: 'Muli', sans-serif;
+  background-image: url('http://i68.tinypic.com/offif.jpg');
+  background-size:  cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.jumbotron {
+  position: center;
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+}
+
+#location {
+  text-align: center;
+  font-size: 30px;
+}
+
+#temp {
+  text-align: center;
+  color: black;
+  font-size: 68px;
+  margin-bottom: 2px;
+}
+
+#weather-icon {
+  height: 160px;
+  width: 160px;
+
+}
+
+#b1 {
+  text-align: center;
+  font-family: "Muli", sans-serif;
+  margin: auto;
+  display: block;
+  font-size: 15px;
+  background-color: pink;
+  margin-bottom: 20px;
+}
+
+
